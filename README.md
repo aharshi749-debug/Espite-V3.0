@@ -1,7 +1,7 @@
 # Notice
 Please do not modify or redistribute this AI LLM model anywhere else without explicit permission from Aharshi Deb
 
-For more information, go to the License to read everything and when you do need permission, please contact Aharshi Deb at 'aharshi749@gmail.com'
+For more information, go to the License to read everything and when you do need permission, please contact Aharshi Deb at aharshi749@gmail.com
 # Espite
 
 **A local language model for compatible ESP32 hardware.**
