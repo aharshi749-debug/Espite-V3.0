@@ -1,0 +1,1992 @@
+[
+ {
+  "id": "q1",
+  "cat": "facts_odd_wording",
+  "msgs": [
+   "yo so like whats the deal with pandas"
+  ],
+  "check": {
+   "any": [
+    "bamboo",
+    "bear",
+    "china"
+   ],
+   "all": [],
+   "none": [
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q2",
+  "cat": "facts_odd_wording",
+  "msgs": [
+   "can u explain what an axolotl even is"
+  ],
+  "check": {
+   "any": [
+    "salamander",
+    "amphibian",
+    "mexico",
+    "regrow",
+    "gills"
+   ],
+   "all": [],
+   "none": [
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q3",
+  "cat": "facts_odd_wording",
+  "msgs": [
+   "ok random but tell me about volcanoes i guess"
+  ],
+  "check": {
+   "any": [
+    "lava",
+    "magma",
+    "erupt"
+   ],
+   "all": [],
+   "none": [
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q4",
+  "cat": "facts_odd_wording",
+  "msgs": [
+   "i keep hearing about resistors, what r those"
+  ],
+  "check": {
+   "any": [
+    "current",
+    "resist",
+    "ohm",
+    "limit"
+   ],
+   "all": [],
+   "none": [
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q5",
+  "cat": "facts_odd_wording",
+  "msgs": [
+   "explain the moon to me like im five"
+  ],
+  "check": {
+   "any": [
+    "earth",
+    "orbit",
+    "night",
+    "rock",
+    "sky"
+   ],
+   "all": [],
+   "none": [
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q6",
+  "cat": "facts_odd_wording",
+  "msgs": [
+   "what in the world is a narwhal"
+  ],
+  "check": {
+   "any": [
+    "tusk",
+    "whale",
+    "arctic",
+    "horn"
+   ],
+   "all": [],
+   "none": [
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q7",
+  "cat": "facts_odd_wording",
+  "msgs": [
+   "describe an esp32 for me please, I'm new to this"
+  ],
+  "check": {
+   "any": [
+    "microcontroller",
+    "wifi",
+    "wi-fi",
+    "chip",
+    "bluetooth",
+    "board"
+   ],
+   "all": [],
+   "none": [
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q8",
+  "cat": "facts_odd_wording",
+  "msgs": [
+   "honestly what even is gravity"
+  ],
+  "check": {
+   "any": [
+    "pull",
+    "fall",
+    "force",
+    "mass",
+    "down"
+   ],
+   "all": [],
+   "none": [
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q9",
+  "cat": "facts_odd_wording",
+  "msgs": [
+   "so umm what's a platypus anyway lol"
+  ],
+  "check": {
+   "any": [
+    "egg",
+    "duck",
+    "australia",
+    "mammal",
+    "bill",
+    "beak"
+   ],
+   "all": [],
+   "none": [
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q10",
+  "cat": "facts_odd_wording",
+  "msgs": [
+   "I was wondering if you could tell me a little something about honey"
+  ],
+  "check": {
+   "any": [
+    "bee",
+    "sweet",
+    "nectar",
+    "flower"
+   ],
+   "all": [],
+   "none": [
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q11",
+  "cat": "facts_odd_wording",
+  "msgs": [
+   "quick q: oxygen??"
+  ],
+  "check": {
+   "any": [
+    "breathe",
+    "air",
+    "gas",
+    "element"
+   ],
+   "all": [],
+   "none": [
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q12",
+  "cat": "facts_odd_wording",
+  "msgs": [
+   "cheetahs?",
+   "ok tell me more"
+  ],
+  "check": {
+   "any": [
+    "fast",
+    "run",
+    "speed",
+    "spot",
+    "africa",
+    "cat",
+    "sprint"
+   ],
+   "all": [],
+   "none": [
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q13",
+  "cat": "typos_slang",
+  "msgs": [
+   "wat do giraffs eat"
+  ],
+  "check": {
+   "any": [
+    "leaves",
+    "leaf",
+    "tree",
+    "acacia",
+    "plant"
+   ],
+   "all": [],
+   "none": [
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q14",
+  "cat": "typos_slang",
+  "msgs": [
+   "wher do penguns live"
+  ],
+  "check": {
+   "any": [
+    "antarctica",
+    "ice",
+    "cold",
+    "south",
+    "ocean",
+    "sea"
+   ],
+   "all": [],
+   "none": [
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q15",
+  "cat": "typos_slang",
+  "msgs": [
+   "cn a ostrich fly"
+  ],
+  "check": {
+   "any": [
+    "no,",
+    "no.",
+    "no ",
+    "no!"
+   ],
+   "all": [],
+   "none": [
+    "yes",
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q16",
+  "cat": "typos_slang",
+  "msgs": [
+   "wats teh capitol of frnace"
+  ],
+  "check": {
+   "any": [],
+   "all": [
+    "paris"
+   ],
+   "none": [],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q17",
+  "cat": "typos_slang",
+  "msgs": [
+   "hw mny legs dose a spidr hav"
+  ],
+  "check": {
+   "any": [
+    "8",
+    "eight"
+   ],
+   "all": [],
+   "none": [
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q18",
+  "cat": "typos_slang",
+  "msgs": [
+   "ngl whats 5 plus 6 fr"
+  ],
+  "check": {
+   "any": [],
+   "all": [
+    "11"
+   ],
+   "none": [],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q19",
+  "cat": "typos_slang",
+  "msgs": [
+   "bruh do sharks eat fish or nah"
+  ],
+  "check": {
+   "any": [
+    "yes"
+   ],
+   "all": [],
+   "none": [
+    "no,",
+    "no.",
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q20",
+  "cat": "typos_slang",
+  "msgs": [
+   "wut sound do a cow make"
+  ],
+  "check": {
+   "any": [
+    "moo"
+   ],
+   "all": [],
+   "none": [],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q21",
+  "cat": "all_caps",
+  "msgs": [
+   "WHAT DO KOALAS EAT"
+  ],
+  "check": {
+   "any": [
+    "eucalyptus",
+    "leaves",
+    "leaf"
+   ],
+   "all": [],
+   "none": [
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q22",
+  "cat": "all_caps",
+  "msgs": [
+   "WHATS THE CAPITAL OF JAPAN"
+  ],
+  "check": {
+   "any": [],
+   "all": [
+    "tokyo"
+   ],
+   "none": [],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q23",
+  "cat": "all_caps",
+  "msgs": [
+   "CAN PENGUINS FLY??"
+  ],
+  "check": {
+   "any": [
+    "no,",
+    "no.",
+    "no ",
+    "no!"
+   ],
+   "all": [],
+   "none": [
+    "yes",
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q24",
+  "cat": "all_caps",
+  "msgs": [
+   "HI MY NAME IS RAYA",
+   "WHATS MY NAME"
+  ],
+  "check": {
+   "any": [],
+   "all": [
+    "raya"
+   ],
+   "none": [],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q25",
+  "cat": "attributes",
+  "msgs": [
+   "so what does a wombat munch on"
+  ],
+  "check": {
+   "any": [
+    "grass",
+    "root",
+    "plant",
+    "bark",
+    "herb"
+   ],
+   "all": [],
+   "none": [
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q26",
+  "cat": "attributes",
+  "msgs": [
+   "where can you find a sloth"
+  ],
+  "check": {
+   "any": [
+    "rainforest",
+    "tree",
+    "forest",
+    "america",
+    "jungle"
+   ],
+   "all": [],
+   "none": [
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q27",
+  "cat": "attributes",
+  "msgs": [
+   "what kinda stuff does an otter like doing"
+  ],
+  "check": {
+   "any": [
+    "swim",
+    "play",
+    "float",
+    "fish",
+    "water",
+    "slide"
+   ],
+   "all": [],
+   "none": [
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q28",
+  "cat": "attributes",
+  "msgs": [
+   "what does a hedgehog usually eat"
+  ],
+  "check": {
+   "any": [
+    "insect",
+    "bug",
+    "worm",
+    "beetle",
+    "snail",
+    "slug"
+   ],
+   "all": [],
+   "none": [
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q29",
+  "cat": "attributes",
+  "msgs": [
+   "where do camels hang out"
+  ],
+  "check": {
+   "any": [
+    "desert"
+   ],
+   "all": [],
+   "none": [
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q30",
+  "cat": "attributes",
+  "msgs": [
+   "what do bees like to do all day"
+  ],
+  "check": {
+   "any": [
+    "flower",
+    "pollen",
+    "nectar",
+    "honey",
+    "buzz",
+    "fly"
+   ],
+   "all": [],
+   "none": [
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q31",
+  "cat": "attributes",
+  "msgs": [
+   "what's a vulture's diet like"
+  ],
+  "check": {
+   "any": [
+    "dead",
+    "carrion",
+    "meat",
+    "carcass",
+    "remains",
+    "leftover"
+   ],
+   "all": [],
+   "none": [
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q32",
+  "cat": "attributes",
+  "msgs": [
+   "polar bears, where do they live?"
+  ],
+  "check": {
+   "any": [
+    "arctic",
+    "ice",
+    "north",
+    "cold",
+    "snow"
+   ],
+   "all": [],
+   "none": [
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q33",
+  "cat": "yes_no",
+  "msgs": [
+   "can a penguin swim?"
+  ],
+  "check": {
+   "any": [
+    "yes"
+   ],
+   "all": [],
+   "none": [
+    "no,",
+    "no.",
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q34",
+  "cat": "yes_no",
+  "msgs": [
+   "hey do cows eat meat"
+  ],
+  "check": {
+   "any": [
+    "no,",
+    "no.",
+    "no ",
+    "no!"
+   ],
+   "all": [],
+   "none": [
+    "yes",
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q35",
+  "cat": "yes_no",
+  "msgs": [
+   "is a bat a bird or"
+  ],
+  "check": {
+   "any": [
+    "no,",
+    "no.",
+    "no ",
+    "no!"
+   ],
+   "all": [],
+   "none": [
+    "yes",
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q36",
+  "cat": "yes_no",
+  "msgs": [
+   "wait is a whale a fish"
+  ],
+  "check": {
+   "any": [
+    "no,",
+    "no.",
+    "no ",
+    "no!"
+   ],
+   "all": [],
+   "none": [
+    "yes",
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q37",
+  "cat": "yes_no",
+  "msgs": [
+   "can squirrels climb trees"
+  ],
+  "check": {
+   "any": [
+    "yes"
+   ],
+   "all": [],
+   "none": [
+    "no,",
+    "no.",
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q38",
+  "cat": "yes_no",
+  "msgs": [
+   "do lions eat meat"
+  ],
+  "check": {
+   "any": [
+    "yes"
+   ],
+   "all": [],
+   "none": [
+    "no,",
+    "no.",
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q39",
+  "cat": "yes_no",
+  "msgs": [
+   "is a frog an amphibian"
+  ],
+  "check": {
+   "any": [
+    "yes"
+   ],
+   "all": [],
+   "none": [
+    "no,",
+    "no.",
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q40",
+  "cat": "yes_no",
+  "msgs": [
+   "can pigs fly lol"
+  ],
+  "check": {
+   "any": [
+    "no,",
+    "no.",
+    "no ",
+    "no!"
+   ],
+   "all": [],
+   "none": [
+    "yes",
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q41",
+  "cat": "yes_no",
+  "msgs": [
+   "do pandas really eat bamboo"
+  ],
+  "check": {
+   "any": [
+    "yes"
+   ],
+   "all": [],
+   "none": [
+    "no,",
+    "no.",
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q42",
+  "cat": "yes_no",
+  "msgs": [
+   "is a spider an insect"
+  ],
+  "check": {
+   "any": [
+    "no,",
+    "no.",
+    "no ",
+    "no!"
+   ],
+   "all": [],
+   "none": [
+    "yes",
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q43",
+  "cat": "class_legs",
+  "msgs": [
+   "what kind of animal is a salamander, like mammal or what"
+  ],
+  "check": {
+   "any": [],
+   "all": [
+    "amphibian"
+   ],
+   "none": [],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q44",
+  "cat": "class_legs",
+  "msgs": [
+   "is a shark a mammal or a fish"
+  ],
+  "check": {
+   "any": [],
+   "all": [
+    "fish"
+   ],
+   "none": [
+    "is a mammal",
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q45",
+  "cat": "class_legs",
+  "msgs": [
+   "how many legs does an ant have"
+  ],
+  "check": {
+   "any": [
+    "6",
+    "six"
+   ],
+   "all": [],
+   "none": [
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q46",
+  "cat": "class_legs",
+  "msgs": [
+   "how many legs do snakes got"
+  ],
+  "check": {
+   "any": [
+    "no legs",
+    "0 legs",
+    "zero",
+    "none"
+   ],
+   "all": [],
+   "none": [
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q47",
+  "cat": "class_legs",
+  "msgs": [
+   "what class of animal is a crab"
+  ],
+  "check": {
+   "any": [
+    "crustacean"
+   ],
+   "all": [],
+   "none": [
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q48",
+  "cat": "class_legs",
+  "msgs": [
+   "an octopus has how many legs"
+  ],
+  "check": {
+   "any": [
+    "8",
+    "eight"
+   ],
+   "all": [],
+   "none": [
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q49",
+  "cat": "comparisons",
+  "msgs": [
+   "whats bigger a whale or an ant"
+  ],
+  "check": {
+   "any": [],
+   "all": [
+    "whale"
+   ],
+   "none": [
+    "ant is bigger",
+    "ant is larger",
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q50",
+  "cat": "comparisons",
+  "msgs": [
+   "mouse vs elephant who's bigger"
+  ],
+  "check": {
+   "any": [],
+   "all": [
+    "elephant"
+   ],
+   "none": [
+    "mouse is bigger",
+    "mouse is larger",
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q51",
+  "cat": "comparisons",
+  "msgs": [
+   "which one is larger, a cat or a horse?"
+  ],
+  "check": {
+   "any": [],
+   "all": [
+    "horse"
+   ],
+   "none": [
+    "cat is bigger",
+    "cat is larger",
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q52",
+  "cat": "comparisons",
+  "msgs": [
+   "is a giraffe bigger than a rabbit"
+  ],
+  "check": {
+   "any": [],
+   "all": [
+    "giraffe"
+   ],
+   "none": [
+    "rabbit is bigger",
+    "rabbit is larger",
+    "no,",
+    "no.",
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q53",
+  "cat": "comparisons",
+  "msgs": [
+   "which is smaller, a bee or a bear"
+  ],
+  "check": {
+   "any": [
+    "bee is smaller",
+    "bear is bigger",
+    "bear is larger",
+    "bee is tiny"
+   ],
+   "all": [],
+   "none": [
+    "bee is bigger",
+    "bear is smaller",
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q54",
+  "cat": "used_for",
+  "msgs": [
+   "what do ppl use a multimeter for"
+  ],
+  "check": {
+   "any": [
+    "measure",
+    "voltage",
+    "current",
+    "resistance"
+   ],
+   "all": [],
+   "none": [
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q55",
+  "cat": "used_for",
+  "msgs": [
+   "whats the point of an umbrella"
+  ],
+  "check": {
+   "any": [
+    "rain",
+    "dry",
+    "sun",
+    "wet"
+   ],
+   "all": [],
+   "none": [
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q56",
+  "cat": "used_for",
+  "msgs": [
+   "why would i ever need a soldering iron"
+  ],
+  "check": {
+   "any": [
+    "solder",
+    "melt",
+    "join",
+    "connect",
+    "heat",
+    "wire"
+   ],
+   "all": [],
+   "none": [
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q57",
+  "cat": "used_for",
+  "msgs": [
+   "what are your lungs even for"
+  ],
+  "check": {
+   "any": [
+    "breath",
+    "air",
+    "oxygen"
+   ],
+   "all": [],
+   "none": [
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q58",
+  "cat": "pronouns_followups",
+  "msgs": [
+   "tell me about foxes",
+   "and what do they eat"
+  ],
+  "check": {
+   "any": [
+    "rabbit",
+    "mice",
+    "mouse",
+    "berries",
+    "small animal",
+    "insect",
+    "meat",
+    "bird"
+   ],
+   "all": [],
+   "none": [
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q59",
+  "cat": "pronouns_followups",
+  "msgs": [
+   "have you heard of a koala",
+   "where does it live"
+  ],
+  "check": {
+   "any": [
+    "australia"
+   ],
+   "all": [],
+   "none": [
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q60",
+  "cat": "pronouns_followups",
+  "msgs": [
+   "tell me about octopuses",
+   "how many arms does it have"
+  ],
+  "check": {
+   "any": [
+    "8",
+    "eight"
+   ],
+   "all": [],
+   "none": [
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q61",
+  "cat": "pronouns_followups",
+  "msgs": [
+   "whats a hippo",
+   "is it a mammal"
+  ],
+  "check": {
+   "any": [
+    "yes"
+   ],
+   "all": [],
+   "none": [
+    "no,",
+    "no.",
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q62",
+  "cat": "pronouns_followups",
+  "msgs": [
+   "kangaroos are so cool",
+   "where do they live?"
+  ],
+  "check": {
+   "any": [
+    "australia"
+   ],
+   "all": [],
+   "none": [
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q63",
+  "cat": "pronouns_followups",
+  "msgs": [
+   "what's a beaver",
+   "tell me more",
+   "ok and what does it eat"
+  ],
+  "check": {
+   "any": [
+    "wood",
+    "bark",
+    "tree",
+    "plant",
+    "leaves",
+    "twig",
+    "stick"
+   ],
+   "all": [],
+   "none": [
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q64",
+  "cat": "what_about",
+  "msgs": [
+   "what do cows eat",
+   "what about lions"
+  ],
+  "check": {
+   "any": [
+    "meat",
+    "zebra",
+    "antelope",
+    "animal",
+    "gazelle",
+    "buffalo"
+   ],
+   "all": [],
+   "none": [
+    "don't know",
+    "not sure",
+    "grass"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q65",
+  "cat": "what_about",
+  "msgs": [
+   "capital of italy?",
+   "what about spain"
+  ],
+  "check": {
+   "any": [],
+   "all": [
+    "madrid"
+   ],
+   "none": [],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q66",
+  "cat": "what_about",
+  "msgs": [
+   "can a duck fly",
+   "what about a penguin"
+  ],
+  "check": {
+   "any": [
+    "no,",
+    "no.",
+    "no ",
+    "can't",
+    "cannot"
+   ],
+   "all": [],
+   "none": [
+    "yes",
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q67",
+  "cat": "multi_topic",
+  "msgs": [
+   "what do rabbits and lions eat"
+  ],
+  "check": {
+   "any": [
+    "grass",
+    "carrot",
+    "vegetable",
+    "plant",
+    "hay",
+    "clover"
+   ],
+   "all": [
+    "meat"
+   ],
+   "none": [],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q68",
+  "cat": "multi_topic",
+  "msgs": [
+   "tell me about the sun and the moon"
+  ],
+  "check": {
+   "any": [
+    "star",
+    "light",
+    "orbit",
+    "earth"
+   ],
+   "all": [
+    "sun",
+    "moon"
+   ],
+   "none": [],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q69",
+  "cat": "multi_topic",
+  "msgs": [
+   "capitals of france and germany pls"
+  ],
+  "check": {
+   "any": [],
+   "all": [
+    "paris",
+    "berlin"
+   ],
+   "none": [],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q70",
+  "cat": "multi_topic",
+  "msgs": [
+   "what are a resistor, a capacitor and an led"
+  ],
+  "check": {
+   "any": [
+    "charge",
+    "store",
+    "energy"
+   ],
+   "all": [
+    "light"
+   ],
+   "none": [],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q71",
+  "cat": "safety_what_happens",
+  "msgs": [
+   "yo what happens if i put 5 volts into an esp32 pin"
+  ],
+  "check": {
+   "any": [
+    "damage",
+    "fry",
+    "3.3",
+    "break",
+    "kill",
+    "destroy",
+    "burn"
+   ],
+   "all": [],
+   "none": [
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q72",
+  "cat": "safety_what_happens",
+  "msgs": [
+   "is it ok to give my dog some chocolate"
+  ],
+  "check": {
+   "any": [
+    "toxic",
+    "poison",
+    "sick",
+    "dangerous",
+    "harm",
+    "vet"
+   ],
+   "all": [],
+   "none": [
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q73",
+  "cat": "safety_what_happens",
+  "msgs": [
+   "what if i mix blue and yellow paint together"
+  ],
+  "check": {
+   "any": [],
+   "all": [
+    "green"
+   ],
+   "none": [],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q74",
+  "cat": "safety_what_happens",
+  "msgs": [
+   "what happens if u text while driving"
+  ],
+  "check": {
+   "any": [
+    "crash",
+    "accident",
+    "dangerous",
+    "distract"
+   ],
+   "all": [],
+   "none": [
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q75",
+  "cat": "safety_what_happens",
+  "msgs": [
+   "is it safe to mix bleach and ammonia"
+  ],
+  "check": {
+   "any": [
+    "toxic",
+    "gas",
+    "poison",
+    "dangerous",
+    "fumes"
+   ],
+   "all": [],
+   "none": [
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q76",
+  "cat": "safety_what_happens",
+  "msgs": [
+   "what happens if you leave ice out in the sun"
+  ],
+  "check": {
+   "any": [
+    "melt",
+    "water"
+   ],
+   "all": [],
+   "none": [
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q77",
+  "cat": "safety_what_happens",
+  "msgs": [
+   "what happens if i hook an led straight to a battery with no resistor"
+  ],
+  "check": {
+   "any": [
+    "burn",
+    "damage",
+    "too much current",
+    "break",
+    "blow",
+    "fry",
+    "die",
+    "destroy"
+   ],
+   "all": [],
+   "none": [
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q78",
+  "cat": "safety_what_happens",
+  "msgs": [
+   "someone texted me a weird link, what happens if i click it"
+  ],
+  "check": {
+   "any": [
+    "virus",
+    "malware",
+    "hack",
+    "scam",
+    "steal",
+    "phish",
+    "dangerous"
+   ],
+   "all": [],
+   "none": [
+    "don't know",
+    "not sure"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q79",
+  "cat": "math",
+  "msgs": [
+   "whats seven plus eight"
+  ],
+  "check": {
+   "any": [],
+   "all": [
+    "15"
+   ],
+   "none": [],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q80",
+  "cat": "math",
+  "msgs": [
+   "how much is 20 minus 13"
+  ],
+  "check": {
+   "any": [
+    "is 7",
+    "= 7",
+    "seven"
+   ],
+   "all": [],
+   "none": [],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q81",
+  "cat": "math",
+  "msgs": [
+   "9 times 6 = ?"
+  ],
+  "check": {
+   "any": [],
+   "all": [
+    "54"
+   ],
+   "none": [],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q82",
+  "cat": "math",
+  "msgs": [
+   "what do you get if you divide 12 by 3"
+  ],
+  "check": {
+   "any": [
+    "is 4",
+    "= 4",
+    "four"
+   ],
+   "all": [],
+   "none": [],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q83",
+  "cat": "math",
+  "msgs": [
+   "add 3 and 4 and 5"
+  ],
+  "check": {
+   "any": [],
+   "all": [
+    "12"
+   ],
+   "none": [],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q84",
+  "cat": "math",
+  "msgs": [
+   "what's 347 plus 891"
+  ],
+  "check": {
+   "any": [
+    "too big",
+    "too large",
+    "big for me",
+    "too high"
+   ],
+   "all": [],
+   "none": [
+    "1238"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q85",
+  "cat": "math",
+  "msgs": [
+   "eleven minus three"
+  ],
+  "check": {
+   "any": [
+    "is 8",
+    "= 8",
+    "eight"
+   ],
+   "all": [],
+   "none": [],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q86",
+  "cat": "math",
+  "msgs": [
+   "hey can u do some math for me... what's 8 x 7"
+  ],
+  "check": {
+   "any": [],
+   "all": [
+    "56"
+   ],
+   "none": [],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q87",
+  "cat": "names",
+  "msgs": [
+   "hi im zed",
+   "what's your name",
+   "ok what's my name"
+  ],
+  "check": {
+   "any": [],
+   "all": [
+    "zed"
+   ],
+   "none": [],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q88",
+  "cat": "names",
+  "msgs": [
+   "hey my name is Priya",
+   "my friend Marcus says hi",
+   "what do cats eat",
+   "whats 4 plus 4",
+   "my brother Theo likes sharks",
+   "tell me a joke",
+   "do you remember my name?"
+  ],
+  "check": {
+   "any": [],
+   "all": [
+    "priya"
+   ],
+   "none": [
+    "marcus",
+    "theo"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q89",
+  "cat": "names",
+  "msgs": [
+   "call me Jonah",
+   "what is the capital of peru",
+   "actually my name is Ezra now",
+   "what's my name"
+  ],
+  "check": {
+   "any": [],
+   "all": [
+    "ezra"
+   ],
+   "none": [
+    "jonah"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q90",
+  "cat": "names",
+  "msgs": [
+   "my name's Luna",
+   "my dog is named Rex",
+   "my cat is named Biscuit",
+   "what do dogs eat",
+   "can owls fly",
+   "what is 2 times 3",
+   "whats my name again"
+  ],
+  "check": {
+   "any": [],
+   "all": [
+    "luna"
+   ],
+   "none": [
+    "rex",
+    "biscuit"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q91",
+  "cat": "names",
+  "msgs": [
+   "i'm Kai btw",
+   "my sister is called Mia",
+   "she likes pandas",
+   "where do pandas live",
+   "whats the capital of china",
+   "tell me a story",
+   "how are you",
+   "what was my name"
+  ],
+  "check": {
+   "any": [],
+   "all": [
+    "kai"
+   ],
+   "none": [
+    "mia"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q92",
+  "cat": "names",
+  "msgs": [
+   "hello my name is Nora",
+   "how are you",
+   "wait no my name is actually Ivy",
+   "what does a rabbit eat",
+   "my mom's name is Nora btw",
+   "whats my name"
+  ],
+  "check": {
+   "any": [],
+   "all": [
+    "ivy"
+   ],
+   "none": [
+    "nora"
+   ],
+   "unknown": false
+  }
+ },
+ {
+  "id": "q93",
+  "cat": "unknown_and_lookalikes",
+  "msgs": [
+   "what does a wolverine eat"
+  ],
+  "check": {
+   "any": [],
+   "all": [],
+   "none": [],
+   "unknown": true
+  }
+ },
+ {
+  "id": "q94",
+  "cat": "unknown_and_lookalikes",
+  "msgs": [
+   "where do quokkas live"
+  ],
+  "check": {
+   "any": [],
+   "all": [],
+   "none": [],
+   "unknown": true
+  }
+ },
+ {
+  "id": "q95",
+  "cat": "unknown_and_lookalikes",
+  "msgs": [
+   "can a cassowary fly"
+  ],
+  "check": {
+   "any": [],
+   "all": [],
+   "none": [
+    "yes"
+   ],
+   "unknown": true
+  }
+ },
+ {
+  "id": "q96",
+  "cat": "unknown_and_lookalikes",
+  "msgs": [
+   "what's a cowfish"
+  ],
+  "check": {
+   "any": [],
+   "all": [],
+   "none": [],
+   "unknown": true
+  }
+ },
+ {
+  "id": "q97",
+  "cat": "unknown_and_lookalikes",
+  "msgs": [
+   "tell me about sunflowers"
+  ],
+  "check": {
+   "any": [],
+   "all": [],
+   "none": [],
+   "unknown": true
+  }
+ },
+ {
+  "id": "q98",
+  "cat": "unknown_and_lookalikes",
+  "msgs": [
+   "how many legs does a centipede have"
+  ],
+  "check": {
+   "any": [],
+   "all": [],
+   "none": [],
+   "unknown": true
+  }
+ },
+ {
+  "id": "q99",
+  "cat": "unknown_and_lookalikes",
+  "msgs": [
+   "what is a zorbulator used for"
+  ],
+  "check": {
+   "any": [],
+   "all": [],
+   "none": [],
+   "unknown": true
+  }
+ },
+ {
+  "id": "q100",
+  "cat": "unknown_and_lookalikes",
+  "msgs": [
+   "whats the capital of bolivia"
+  ],
+  "check": {
+   "any": [],
+   "all": [],
+   "none": [
+    "la paz",
+    "sucre"
+   ],
+   "unknown": true
+  }
+ }
+]

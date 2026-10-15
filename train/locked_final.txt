@@ -1,0 +1,416 @@
+all_caps                       4/4  
+attributes                     7/8  
+class_legs                     6/6  
+comparisons                    4/5  
+facts_odd_wording             10/12 
+math                           6/8  
+multi_topic                    3/4  
+names                          5/6  
+pronouns_followups             6/6  
+safety_what_happens            6/8  
+typos_slang                    6/8  
+unknown_and_lookalikes         4/8  
+used_for                       2/4  
+what_about                     2/3  
+yes_no                         8/10 
+TOTAL                        79/100  (79%)
+
+PASS [facts_odd_wording] yo so like whats the deal with pandas
+  check: {"any": ["bamboo", "bear", "china"], "all": [], "none": ["don't know", "not sure"], "unknown": false}
+  reply: A panda is a black and white bear from China. Pandas mostly eat bamboo.
+
+PASS [facts_odd_wording] can u explain what an axolotl even is
+  check: {"any": ["salamander", "amphibian", "mexico", "regrow", "gills"], "all": [], "none": ["don't know", "not sure"], "unknown": false}
+  reply: An axolotl is a salamander from Mexico that keeps its feathery gills its whole life.
+
+PASS [facts_odd_wording] ok random but tell me about volcanoes i guess
+  check: {"any": ["lava", "magma", "erupt"], "all": [], "none": ["don't know", "not sure"], "unknown": false}
+  reply: A volcano is a mountain that can erupt hot melted rock called lava.
+
+PASS [facts_odd_wording] i keep hearing about resistors, what r those
+  check: {"any": ["current", "resist", "ohm", "limit"], "all": [], "none": ["don't know", "not sure"], "unknown": false}
+  reply: A resistor is a part that limits how much electric current flows in a circuit.
+
+PASS [facts_odd_wording] explain the moon to me like im five
+  check: {"any": ["earth", "orbit", "night", "rock", "sky"], "all": [], "none": ["don't know", "not sure"], "unknown": false}
+  reply: The moon is a big rock that goes around the Earth. It shines by reflecting sunlight.
+
+PASS [facts_odd_wording] what in the world is a narwhal
+  check: {"any": ["tusk", "whale", "arctic", "horn"], "all": [], "none": ["don't know", "not sure"], "unknown": false}
+  reply: A narwhal is a whale with a long, spiral tusk.
+
+PASS [facts_odd_wording] describe an esp32 for me please, I'm new to this
+  check: {"any": ["microcontroller", "wifi", "wi-fi", "chip", "bluetooth", "board"], "all": [], "none": ["don't know", "not sure"], "unknown": false}
+  reply: An ESP32 is a cheap microcontroller chip with built-in WiFi and Bluetooth. It is made by Espressif.
+
+PASS [facts_odd_wording] honestly what even is gravity
+  check: {"any": ["pull", "fall", "force", "mass", "down"], "all": [], "none": ["don't know", "not sure"], "unknown": false}
+  reply: Gravity is the force that pulls things toward each other. It keeps us on the ground.
+
+PASS [facts_odd_wording] so umm what's a platypus anyway lol
+  check: {"any": ["egg", "duck", "australia", "mammal", "bill", "beak"], "all": [], "none": ["don't know", "not sure"], "unknown": false}
+  reply: A platypus is a strange animal from Australia with a bill like a duck. It is a mammal that lays eggs.
+
+FAIL [facts_odd_wording] I was wondering if you could tell me a little something about honey
+  check: {"any": ["bee", "sweet", "nectar", "flower"], "all": [], "none": ["don't know", "not sure"], "unknown": false}
+  reply: It makes them happy, and it makes you feel good too!
+
+FAIL [facts_odd_wording] quick q: oxygen??
+  check: {"any": ["breathe", "air", "gas", "element"], "all": [], "none": ["don't know", "not sure"], "unknown": false}
+  reply: 0 times 10 is 0.
+
+PASS [facts_odd_wording] cheetahs? | ok tell me more
+  check: {"any": ["fast", "run", "speed", "spot", "africa", "cat", "sprint"], "all": [], "none": ["don't know", "not sure"], "unknown": false}
+  reply: Cheetahs can only run that fast for a short time before they get tired.
+
+PASS [typos_slang] wat do giraffs eat
+  check: {"any": ["leaves", "leaf", "tree", "acacia", "plant"], "all": [], "none": ["don't know", "not sure"], "unknown": false}
+  reply: Giraffes eat leaves from tall trees, especially acacia trees.
+
+PASS [typos_slang] wher do penguns live
+  check: {"any": ["antarctica", "ice", "cold", "south", "ocean", "sea"], "all": [], "none": ["don't know", "not sure"], "unknown": false}
+  reply: Most penguins live in cold places like Antarctica.
+
+PASS [typos_slang] cn a ostrich fly
+  check: {"any": ["no,", "no.", "no ", "no!"], "all": [], "none": ["yes", "don't know", "not sure"], "unknown": false}
+  reply: No, ostriches can't fly. But they can run fast.
+
+FAIL [typos_slang] wats teh capitol of frnace
+  check: {"any": [], "all": ["paris"], "none": [], "unknown": false}
+  reply: A ferret is a long, slim, playful pet.
+
+PASS [typos_slang] hw mny legs dose a spidr hav
+  check: {"any": ["8", "eight"], "all": [], "none": ["don't know", "not sure"], "unknown": false}
+  reply: A spider has 8 legs.
+
+PASS [typos_slang] ngl whats 5 plus 6 fr
+  check: {"any": [], "all": ["11"], "none": [], "unknown": false}
+  reply: 5 plus 6 is 11.
+
+FAIL [typos_slang] bruh do sharks eat fish or nah
+  check: {"any": ["yes"], "all": [], "none": ["no,", "no.", "don't know", "not sure"], "unknown": false}
+  reply: No. Sharks eat fish, seals, and squid.
+
+PASS [typos_slang] wut sound do a cow make
+  check: {"any": ["moo"], "all": [], "none": [], "unknown": false}
+  reply: A cow says moo!
+
+PASS [all_caps] WHAT DO KOALAS EAT
+  check: {"any": ["eucalyptus", "leaves", "leaf"], "all": [], "none": ["don't know", "not sure"], "unknown": false}
+  reply: Koalas eat eucalyptus leaves.
+
+PASS [all_caps] WHATS THE CAPITAL OF JAPAN
+  check: {"any": [], "all": ["tokyo"], "none": [], "unknown": false}
+  reply: The capital of Japan is Tokyo.
+
+PASS [all_caps] CAN PENGUINS FLY??
+  check: {"any": ["no,", "no.", "no ", "no!"], "all": [], "none": ["yes", "don't know", "not sure"], "unknown": false}
+  reply: No, penguins can't fly. But they can swim.
+
+PASS [all_caps] HI MY NAME IS RAYA | WHATS MY NAME
+  check: {"any": [], "all": ["raya"], "none": [], "unknown": false}
+  reply: You're raya!
+
+FAIL [attributes] so what does a wombat munch on
+  check: {"any": ["grass", "root", "plant", "bark", "herb"], "all": [], "none": ["don't know", "not sure"], "unknown": false}
+  reply: Wombats are used to power phones, toys, remotes, and cars.
+
+PASS [attributes] where can you find a sloth
+  check: {"any": ["rainforest", "tree", "forest", "america", "jungle"], "all": [], "none": ["don't know", "not sure"], "unknown": false}
+  reply: Sloths live in the rainforests of Central and South America.
+
+PASS [attributes] what kinda stuff does an otter like doing
+  check: {"any": ["swim", "play", "float", "fish", "water", "slide"], "all": [], "none": ["don't know", "not sure"], "unknown": false}
+  reply: Otters love to swim, slide, and play.
+
+PASS [attributes] what does a hedgehog usually eat
+  check: {"any": ["insect", "bug", "worm", "beetle", "snail", "slug"], "all": [], "none": ["don't know", "not sure"], "unknown": false}
+  reply: Hedgehogs eat insects, worms, and snails.
+
+PASS [attributes] where do camels hang out
+  check: {"any": ["desert"], "all": [], "none": ["don't know", "not sure"], "unknown": false}
+  reply: Camels live in deserts.
+
+PASS [attributes] what do bees like to do all day
+  check: {"any": ["flower", "pollen", "nectar", "honey", "buzz", "fly"], "all": [], "none": ["don't know", "not sure"], "unknown": false}
+  reply: Bees love to visit flowers and make honey.
+
+PASS [attributes] what's a vulture's diet like
+  check: {"any": ["dead", "carrion", "meat", "carcass", "remains", "leftover"], "all": [], "none": ["don't know", "not sure"], "unknown": false}
+  reply: Vultures eat dead animals.
+
+PASS [attributes] polar bears, where do they live?
+  check: {"any": ["arctic", "ice", "north", "cold", "snow"], "all": [], "none": ["don't know", "not sure"], "unknown": false}
+  reply: Polar bears live on the sea ice in the Arctic. Polar bears live on the sea ice in the Arctic.
+
+PASS [yes_no] can a penguin swim?
+  check: {"any": ["yes"], "all": [], "none": ["no,", "no.", "don't know", "not sure"], "unknown": false}
+  reply: Yes, penguins can swim.
+
+PASS [yes_no] hey do cows eat meat
+  check: {"any": ["no,", "no.", "no ", "no!"], "all": [], "none": ["yes", "don't know", "not sure"], "unknown": false}
+  reply: No. Cows eat grass and hay.
+
+FAIL [yes_no] is a bat a bird or
+  check: {"any": ["no,", "no.", "no ", "no!"], "all": [], "none": ["yes", "don't know", "not sure"], "unknown": false}
+  reply: Yes, a bat is a mammal.
+
+PASS [yes_no] wait is a whale a fish
+  check: {"any": ["no,", "no.", "no ", "no!"], "all": [], "none": ["yes", "don't know", "not sure"], "unknown": false}
+  reply: No, a whale is a mammal, not a fish.
+
+PASS [yes_no] can squirrels climb trees
+  check: {"any": ["yes"], "all": [], "none": ["no,", "no.", "don't know", "not sure"], "unknown": false}
+  reply: Yes, squirrels can climb.
+
+PASS [yes_no] do lions eat meat
+  check: {"any": ["yes"], "all": [], "none": ["no,", "no.", "don't know", "not sure"], "unknown": false}
+  reply: Yes! Lions eat meat, like zebras and antelopes.
+
+FAIL [yes_no] is a frog an amphibian
+  check: {"any": ["yes"], "all": [], "none": ["no,", "no.", "don't know", "not sure"], "unknown": false}
+  reply: No, a frog is an amphibian, not an amphibian.
+
+PASS [yes_no] can pigs fly lol
+  check: {"any": ["no,", "no.", "no ", "no!"], "all": [], "none": ["yes", "don't know", "not sure"], "unknown": false}
+  reply: No, pigs can't fly. But they can swim.
+
+PASS [yes_no] do pandas really eat bamboo
+  check: {"any": ["yes"], "all": [], "none": ["no,", "no.", "don't know", "not sure"], "unknown": false}
+  reply: Yes! Pandas eat bamboo.
+
+PASS [yes_no] is a spider an insect
+  check: {"any": ["no,", "no.", "no ", "no!"], "all": [], "none": ["yes", "don't know", "not sure"], "unknown": false}
+  reply: No, a spider is an arachnid, not an insect.
+
+PASS [class_legs] what kind of animal is a salamander, like mammal or what
+  check: {"any": [], "all": ["amphibian"], "none": [], "unknown": false}
+  reply: A salamander is an amphibian.
+
+PASS [class_legs] is a shark a mammal or a fish
+  check: {"any": [], "all": ["fish"], "none": ["is a mammal", "don't know", "not sure"], "unknown": false}
+  reply: A shark is a fish.
+
+PASS [class_legs] how many legs does an ant have
+  check: {"any": ["6", "six"], "all": [], "none": ["don't know", "not sure"], "unknown": false}
+  reply: An ant has 6 legs.
+
+PASS [class_legs] how many legs do snakes got
+  check: {"any": ["no legs", "0 legs", "zero", "none"], "all": [], "none": ["don't know", "not sure"], "unknown": false}
+  reply: A snake has no legs.
+
+PASS [class_legs] what class of animal is a crab
+  check: {"any": ["crustacean"], "all": [], "none": ["don't know", "not sure"], "unknown": false}
+  reply: A crab is a crustacean.
+
+PASS [class_legs] an octopus has how many legs
+  check: {"any": ["8", "eight"], "all": [], "none": ["don't know", "not sure"], "unknown": false}
+  reply: An octopus has 8 arms.
+
+PASS [comparisons] whats bigger a whale or an ant
+  check: {"any": [], "all": ["whale"], "none": ["ant is bigger", "ant is larger", "don't know", "not sure"], "unknown": false}
+  reply: A whale is bigger than an ant.
+
+PASS [comparisons] mouse vs elephant who's bigger
+  check: {"any": [], "all": ["elephant"], "none": ["mouse is bigger", "mouse is larger", "don't know", "not sure"], "unknown": false}
+  reply: Elephants use their trunk to drink, smell, and pick things up.
+
+PASS [comparisons] which one is larger, a cat or a horse?
+  check: {"any": [], "all": ["horse"], "none": ["cat is bigger", "cat is larger", "don't know", "not sure"], "unknown": false}
+  reply: A horse is bigger than a cat.
+
+PASS [comparisons] is a giraffe bigger than a rabbit
+  check: {"any": [], "all": ["giraffe"], "none": ["rabbit is bigger", "rabbit is larger", "no,", "no.", "don't know", "not sure"], "unknown": false}
+  reply: Yes, a giraffe is bigger than a rabbit.
+
+FAIL [comparisons] which is smaller, a bee or a bear
+  check: {"any": ["bee is smaller", "bear is bigger", "bear is larger", "bee is tiny"], "all": [], "none": ["bee is bigger", "bear is smaller", "don't know", "not sure"], "unknown": false}
+  reply: A bear is smaller than a bee.
+
+FAIL [used_for] what do ppl use a multimeter for
+  check: {"any": ["measure", "voltage", "current", "resistance"], "all": [], "none": ["don't know", "not sure"], "unknown": false}
+  reply: Multimeters are used to test and fix circuits.
+
+PASS [used_for] whats the point of an umbrella
+  check: {"any": ["rain", "dry", "sun", "wet"], "all": [], "none": ["don't know", "not sure"], "unknown": false}
+  reply: Umbrellas are used to stay dry in the rain.
+
+PASS [used_for] why would i ever need a soldering iron
+  check: {"any": ["solder", "melt", "join", "connect", "heat", "wire"], "all": [], "none": ["don't know", "not sure"], "unknown": false}
+  reply: Soldering irons are used to connect parts to circuit boards.
+
+FAIL [used_for] what are your lungs even for
+  check: {"any": ["breath", "air", "oxygen"], "all": [], "none": ["don't know", "not sure"], "unknown": false}
+  reply: I'm ESPite, a tiny language model running on an ESP32-S3 Super Mini.
+
+PASS [pronouns_followups] tell me about foxes | and what do they eat
+  check: {"any": ["rabbit", "mice", "mouse", "berries", "small animal", "insect", "meat", "bird"], "all": [], "none": ["don't know", "not sure"], "unknown": false}
+  reply: Foxes eat mice, rabbits, berries, and bugs.
+
+PASS [pronouns_followups] have you heard of a koala | where does it live
+  check: {"any": ["australia"], "all": [], "none": ["don't know", "not sure"], "unknown": false}
+  reply: Koalas live in eucalyptus trees in Australia.
+
+PASS [pronouns_followups] tell me about octopuses | how many arms does it have
+  check: {"any": ["8", "eight"], "all": [], "none": ["don't know", "not sure"], "unknown": false}
+  reply: An octopus has 8 arms.
+
+PASS [pronouns_followups] whats a hippo | is it a mammal
+  check: {"any": ["yes"], "all": [], "none": ["no,", "no.", "don't know", "not sure"], "unknown": false}
+  reply: Yes, a hippo is a mammal.
+
+PASS [pronouns_followups] kangaroos are so cool | where do they live?
+  check: {"any": ["australia"], "all": [], "none": ["don't know", "not sure"], "unknown": false}
+  reply: Kangaroos live in Australia.
+
+PASS [pronouns_followups] what's a beaver | tell me more | ok and what does it eat
+  check: {"any": ["wood", "bark", "tree", "plant", "leaves", "twig", "stick"], "all": [], "none": ["don't know", "not sure"], "unknown": false}
+  reply: Beavers eat bark, twigs, and water plants.
+
+PASS [what_about] what do cows eat | what about lions
+  check: {"any": ["meat", "zebra", "antelope", "animal", "gazelle", "buffalo"], "all": [], "none": ["don't know", "not sure", "grass"], "unknown": false}
+  reply: Lions eat meat, like zebras and antelopes.
+
+FAIL [what_about] capital of italy? | what about spain
+  check: {"any": [], "all": ["madrid"], "none": [], "unknown": false}
+  reply: A speaker is a device that turns electricity into sound.
+
+PASS [what_about] can a duck fly | what about a penguin
+  check: {"any": ["no,", "no.", "no ", "can't", "cannot"], "all": [], "none": ["yes", "don't know", "not sure"], "unknown": false}
+  reply: No, penguins can't fly. But they can swim.
+
+PASS [multi_topic] what do rabbits and lions eat
+  check: {"any": ["grass", "carrot", "vegetable", "plant", "hay", "clover"], "all": ["meat"], "none": [], "unknown": false}
+  reply: Rabbits eat grass, hay, and vegetables like carrots. Lions eat meat, like zebras and antelopes.
+
+PASS [multi_topic] tell me about the sun and the moon
+  check: {"any": ["star", "light", "orbit", "earth"], "all": ["sun", "moon"], "none": [], "unknown": false}
+  reply: The sun is the star at the center of our solar system. The moon is a big rock that goes around the Earth.
+
+FAIL [multi_topic] capitals of france and germany pls
+  check: {"any": [], "all": ["paris", "berlin"], "none": [], "unknown": false}
+  reply: The capital of Ferlands is Apries.
+
+PASS [multi_topic] what are a resistor, a capacitor and an led
+  check: {"any": ["charge", "store", "energy"], "all": ["light"], "none": [], "unknown": false}
+  reply: A resistor is a part that limits how much electric current flows in a circuit. A capacitor is a part that stores a small amount of electric charge. An LED is a small light that turns on when electricity flows through it.
+
+PASS [safety_what_happens] yo what happens if i put 5 volts into an esp32 pin
+  check: {"any": ["damage", "fry", "3.3", "break", "kill", "destroy", "burn"], "all": [], "none": ["don't know", "not sure"], "unknown": false}
+  reply: An ESP32 pin runs on 3.3 volts, so 5 volts can damage the pin or the whole chip.
+
+PASS [safety_what_happens] is it ok to give my dog some chocolate
+  check: {"any": ["toxic", "poison", "sick", "dangerous", "harm", "vet"], "all": [], "none": ["don't know", "not sure"], "unknown": false}
+  reply: No. Chocolate is poisonous to dogs and can make them very sick. Call a vet if it happens.
+
+PASS [safety_what_happens] what if i mix blue and yellow paint together
+  check: {"any": [], "all": ["green"], "none": [], "unknown": false}
+  reply: You get green!
+
+PASS [safety_what_happens] what happens if u text while driving
+  check: {"any": ["crash", "accident", "dangerous", "distract"], "all": [], "none": ["don't know", "not sure"], "unknown": false}
+  reply: Texting while driving takes your eyes off the road, which can cause a crash. Put the phone away until you stop.
+
+FAIL [safety_what_happens] is it safe to mix bleach and ammonia
+  check: {"any": ["toxic", "gas", "poison", "dangerous", "fumes"], "all": [], "none": ["don't know", "not sure"], "unknown": false}
+  reply: No. Muling 2 is 0.
+
+PASS [safety_what_happens] what happens if you leave ice out in the sun
+  check: {"any": ["melt", "water"], "all": [], "none": ["don't know", "not sure"], "unknown": false}
+  reply: The ice melts into water, because the sun warms it up.
+
+PASS [safety_what_happens] what happens if i hook an led straight to a battery with no resistor
+  check: {"any": ["burn", "damage", "too much current", "break", "blow", "fry", "die", "destroy"], "all": [], "none": ["don't know", "not sure"], "unknown": false}
+  reply: Too much current flows, and the LED can burn out. Always use a resistor with an LED.
+
+FAIL [safety_what_happens] someone texted me a weird link, what happens if i click it
+  check: {"any": ["virus", "malware", "hack", "scam", "steal", "phish", "dangerous"], "all": [], "none": ["don't know", "not sure"], "unknown": false}
+  reply: People might stop trusting you. Telling the truth is usually best.
+
+PASS [math] whats seven plus eight
+  check: {"any": [], "all": ["15"], "none": [], "unknown": false}
+  reply: 7 plus 8 is 15.
+
+PASS [math] how much is 20 minus 13
+  check: {"any": ["is 7", "= 7", "seven"], "all": [], "none": [], "unknown": false}
+  reply: 20 minus 13 is 7.
+
+PASS [math] 9 times 6 = ?
+  check: {"any": [], "all": ["54"], "none": [], "unknown": false}
+  reply: 9 times 6 is 54.
+
+FAIL [math] what do you get if you divide 12 by 3
+  check: {"any": ["is 4", "= 4", "four"], "all": [], "none": [], "unknown": false}
+  reply: Each I2C.
+
+FAIL [math] add 3 and 4 and 5
+  check: {"any": [], "all": ["12"], "none": [], "unknown": false}
+  reply: 3 plus 4 is 7.
+
+PASS [math] what's 347 plus 891
+  check: {"any": ["too big", "too large", "big for me", "too high"], "all": [], "none": ["1238"], "unknown": false}
+  reply: That's too big for my tiny brain. I can add and subtract up to 20, and multiply and divide up to 10.
+
+PASS [math] eleven minus three
+  check: {"any": ["is 8", "= 8", "eight"], "all": [], "none": [], "unknown": false}
+  reply: 11 minus 3 is 8.
+
+PASS [math] hey can u do some math for me... what's 8 x 7
+  check: {"any": [], "all": ["56"], "none": [], "unknown": false}
+  reply: 8 times 7 is 56.
+
+PASS [names] hi im zed | what's your name | ok what's my name
+  check: {"any": [], "all": ["zed"], "none": [], "unknown": false}
+  reply: You're zed!
+
+PASS [names] hey my name is Priya | my friend Marcus says hi | what do cats eat | whats 4 plus 4 | my brother Theo likes sharks | tell me a joke | do you remember my name?
+  check: {"any": [], "all": ["priya"], "none": ["marcus", "theo"], "unknown": false}
+  reply: You're Priya!
+
+PASS [names] call me Jonah | what is the capital of peru | actually my name is Ezra now | what's my name
+  check: {"any": [], "all": ["ezra"], "none": ["jonah"], "unknown": false}
+  reply: You're Ezra!
+
+PASS [names] my name's Luna | my dog is named Rex | my cat is named Biscuit | what do dogs eat | can owls fly | what is 2 times 3 | whats my name again
+  check: {"any": [], "all": ["luna"], "none": ["rex", "biscuit"], "unknown": false}
+  reply: You're Luna!
+
+PASS [names] i'm Kai btw | my sister is called Mia | she likes pandas | where do pandas live | whats the capital of china | tell me a story | how are you | what was my name
+  check: {"any": [], "all": ["kai"], "none": ["mia"], "unknown": false}
+  reply: You're Kai!
+
+FAIL [names] hello my name is Nora | how are you | wait no my name is actually Ivy | what does a rabbit eat | my mom's name is Nora btw | whats my name
+  check: {"any": [], "all": ["ivy"], "none": ["nora"], "unknown": false}
+  reply: You're Nora!
+
+FAIL [unknown_and_lookalikes] what does a wolverine eat
+  check: {"any": [], "all": [], "none": [], "unknown": true}
+  reply: Wolves eat deer, rabbits, and other animals.
+
+PASS [unknown_and_lookalikes] where do quokkas live
+  check: {"any": [], "all": [], "none": [], "unknown": true}
+  reply: I'm not sure. I don't know about quokka, so I can't answer that.
+
+FAIL [unknown_and_lookalikes] can a cassowary fly
+  check: {"any": [], "all": [], "none": ["yes"], "unknown": true}
+  reply: Yes, crows can fly.
+
+PASS [unknown_and_lookalikes] what's a cowfish
+  check: {"any": [], "all": [], "none": [], "unknown": true}
+  reply: I don't know what a cowfish is, but I know about cows and fish!
+
+FAIL [unknown_and_lookalikes] tell me about sunflowers
+  check: {"any": [], "all": [], "none": [], "unknown": true}
+  reply: The sun is the star at the center of our solar system. It gives Earth light and heat.
+
+PASS [unknown_and_lookalikes] how many legs does a centipede have
+  check: {"any": [], "all": [], "none": [], "unknown": true}
+  reply: I'm not sure. I don't know about centipede, so I can't answer that.
+
+PASS [unknown_and_lookalikes] what is a zorbulator used for
+  check: {"any": [], "all": [], "none": [], "unknown": true}
+  reply: Hmm, I'm not sure about zorbulator. My memory is small!
+
+FAIL [unknown_and_lookalikes] whats the capital of bolivia
+  check: {"any": [], "all": [], "none": ["la paz", "sucre"], "unknown": true}
+  reply: The capital of Bolivia is Bew Delhi.
